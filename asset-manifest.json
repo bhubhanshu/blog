@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/blog/static/css/main.c8fb6918.chunk.css",
+    "main.js": "/blog/static/js/main.cec4b950.chunk.js",
+    "main.js.map": "/blog/static/js/main.cec4b950.chunk.js.map",
+    "runtime-main.js": "/blog/static/js/runtime-main.10c1e3dd.js",
+    "runtime-main.js.map": "/blog/static/js/runtime-main.10c1e3dd.js.map",
+    "static/css/2.7fc57b94.chunk.css": "/blog/static/css/2.7fc57b94.chunk.css",
+    "static/js/2.f4a1dc23.chunk.js": "/blog/static/js/2.f4a1dc23.chunk.js",
+    "static/js/2.f4a1dc23.chunk.js.map": "/blog/static/js/2.f4a1dc23.chunk.js.map",
+    "index.html": "/blog/index.html",
+    "precache-manifest.19d9fbb3142412c307ee9cbaf8e1a7f4.js": "/blog/precache-manifest.19d9fbb3142412c307ee9cbaf8e1a7f4.js",
+    "service-worker.js": "/blog/service-worker.js",
+    "static/css/2.7fc57b94.chunk.css.map": "/blog/static/css/2.7fc57b94.chunk.css.map",
+    "static/css/main.c8fb6918.chunk.css.map": "/blog/static/css/main.c8fb6918.chunk.css.map",
+    "static/js/2.f4a1dc23.chunk.js.LICENSE.txt": "/blog/static/js/2.f4a1dc23.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/blog/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10c1e3dd.js",
+    "static/css/2.7fc57b94.chunk.css",
+    "static/js/2.f4a1dc23.chunk.js",
+    "static/css/main.c8fb6918.chunk.css",
+    "static/js/main.cec4b950.chunk.js"
+  ]
+}
