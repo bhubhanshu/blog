@@ -117,3 +117,12 @@ h5{
 .scrollTop:hover{
   opacity: 1;
 }
+
+@media(max-width: 700px){
+  .line{
+    left: 25%;
+  }
+  h5{
+    font-size: 1rem;
+  }
+}
