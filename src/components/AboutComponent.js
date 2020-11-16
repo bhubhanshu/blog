@@ -8,7 +8,7 @@ function About() {
         <div className="container mb-5">
             <div className="row">
                 <Breadcrumb>
-                    <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                    <BreadcrumbItem><Link to='/home'>Home</Link></BreadcrumbItem>
                     <BreadcrumbItem active>About Me</BreadcrumbItem>
                 </Breadcrumb>
                 <div className="col-12">
@@ -50,7 +50,7 @@ function About() {
                             <dd className="col-8 my-2"><Progress animated color="danger" value="50" /></dd>
                             <dt className="col-4 my-2">PhP</dt>
                             <dd className="col-8 my-2"><Progress animated color="primary" value="50" /></dd>
-                            <dt className="col-leaders4 my-2">JS</dt>
+                            <dt className="col-4 my-2">JS</dt>
                             <dd className="col-8 my-2"><Progress animated color="info" value="70" /></dd>
                             <dt className="col-4 my-2">HTML, CSS</dt>
                             <dd className="col-8 my-2"><Progress animated color="warning" value="90" /></dd>

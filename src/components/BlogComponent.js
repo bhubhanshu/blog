@@ -33,7 +33,7 @@ function RenderComments({comments, postComment, blogId}) {
                                         <blockquote className="blockquote">
                                             <p>{comment.comment}</p>
                                             <footer className="blockquote-footer">{comment.author},
-                                            <cite title="Source Title">{new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day:'2-digit'}).format(new Date(Date.parse(comment.createdAt)))}</cite>
+                                            <cite title="Source Title">{new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day:'2-digit'}).format(new Date(comment.createdAt))}</cite>
                                             </footer>
                                         </blockquote>
                                     </Fade>
@@ -226,7 +226,7 @@ class BlogDetail extends Component {
         }
         else if (this.props.blog != null){
             if(this.state.back){
-                return(<Redirect to="/" />);
+                return(<Redirect to={process.env.PUBLIC_URL+'/blog'} />);
             }       
             return (
                 <div className="container">
@@ -241,7 +241,7 @@ class BlogDetail extends Component {
                             <blockquote className="blockquote">
                                 <h1>{this.props.blog.title}</h1>
                                 <footer className="blockquote-footer ml-5">{this.props.blog.author},
-                                <cite title="Source Title">{new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day:'2-digit'}).format(new Date(Date.parse(this.props.blog.createdAt)))}</cite>
+                                <cite title="Source Title">{new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day:'2-digit'}).format(new Date(this.props.blog.createdAt))}</cite>
                                 </footer>
                             </blockquote>
                         </div>

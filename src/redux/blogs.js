@@ -2,7 +2,8 @@ import * as ActionTypes from './ActionTypes';
 
 export const Blogs = (state = {
         errMess: null,
-        blogs: []
+        blogs: [],
+        isLoading: true
     }, action) => {
     switch(action.type) {
         case ActionTypes.ADD_BLOGS:

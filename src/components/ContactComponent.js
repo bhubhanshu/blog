@@ -45,7 +45,7 @@ class Contact extends Component {
                     <div className="col-12">
                         <div className="btn-group" role="group">
                             <a role="button" className="btn btn-primary" href="tel:9131040692"><i className="fa fa-phone"></i> Call</a>
-                            <a role="button" className="btn btn-info" href="https://wa.me/9131040692"><i className="fa fa-whatsapp"></i> Whatsapp</a>
+                            <a role="button" className="btn btn-info" href="https://wa.me/919131040692"><i className="fa fa-whatsapp"></i> Whatsapp</a>
                             <a role="button" className="btn btn-success" href="mailto:f20170951@goa.bits-pilani.ac.in"><i className="fa fa-envelope-o"></i> Email</a>
                             <a role="button" className="btn btn-danger" href="https://m.me/bhubhanshu.gurjar"><i className="fab fa-facebook-messenger"></i> Facebook Messenger</a>
                         </div>

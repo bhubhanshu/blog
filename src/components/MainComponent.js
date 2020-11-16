@@ -59,12 +59,12 @@ class Main extends Component {
                 <TransitionGroup>
                     <CSSTransition key={this.props.location.key} classNames="page" timeout={300}>
                         <Switch>
-                            <Route path="/home" component={() => <Home blogs={this.props.blogs} auth={this.props.auth} postBlog={this.props.postBlog}/>} />
-                            <Route path="/blog/:blogId" component={BlogWithId} />
+                            <Route path='/home' component={() => <Home blogs={this.props.blogs} auth={this.props.auth} postBlog={this.props.postBlog}/>} />
+                            <Route path='/blog/:blogId' component={BlogWithId} />
                             <Route exact path='/aboutme' component={() => <About />} />
-                            <Route exact path="/admin" component={() => <Admin auth={this.props.auth} loginUser={this.props.loginUser}/> } />
-                            <Route exact path="/contactme" component={() => <Contact resetFeedbackForm={this.props.resetFeedbackForm} postFeedback={this.props.postFeedback}/>} />
-                            <Redirect to="/home" />
+                            <Route exact path='/admin' component={() => <Admin auth={this.props.auth} loginUser={this.props.loginUser}/> } />
+                            <Route exact path='/contactme' component={() => <Contact resetFeedbackForm={this.props.resetFeedbackForm} postFeedback={this.props.postFeedback}/>} />
+                            <Redirect to='/home' />
                         </Switch>
                     </CSSTransition>
                 </TransitionGroup>

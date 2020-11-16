@@ -31,7 +31,7 @@ class RenderBlog extends Component {
                             <blockquote className="blockquote">
                                 <h1>{this.props.blog.title}</h1>
                                 <footer className="blockquote-footer">{this.props.blog.author},
-                                <cite title="Source Title">{new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day:'2-digit'}).format(new Date(Date.parse(this.props.blog.createdAt)))}</cite>
+                                <cite title="Source Title">{new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day:'2-digit'}).format(new Date(this.props.blog.createdAt))}</cite>
                                 </footer>
                             </blockquote>
                         </div>
