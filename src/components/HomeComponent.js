@@ -144,7 +144,7 @@ class BlogList extends Component {
           };
         window.addEventListener('scroll', checkScrollTop);
           
-        const sorted = this.props.blogs.blogs.slice().sort((a, b) => b.createdAt - a.createdAt).reverse();
+        const sorted = this.props.blogs.blogs.slice().sort((a, b) => b.createdAt - a.createdAt);
         console.log(sorted);
         const blogs = sorted.map((blog) => {
             return (
